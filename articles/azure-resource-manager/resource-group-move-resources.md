@@ -67,7 +67,7 @@ Call support when you need to:
 * Move your resources to a new Azure account (and Active Directory tenant).
 * Move classic resources but are having trouble with the limitations.
 
-## Services that enable move
+ ## Services that enable move
 For now, the services that enable moving to both a new resource group and subscription are:
 
 * API Management
@@ -77,7 +77,7 @@ For now, the services that enable moving to both a new resource group and subscr
 * Bing Maps
 * CDN
 * Cloud Services - see [Classic deployment limitations](#classic-deployment-limitations)
-* Cognitive Services
+ * Cognitive Services
 * Content Moderator
 * Data Catalog
 * Data Factory
@@ -87,7 +87,7 @@ For now, the services that enable moving to both a new resource group and subscr
 * DocumentDB
 * Event Hubs
 * HDInsight clusters - see [HDInsight limitations](#hdinsight-limitations)
-* IoT Hubs
+ * IoT Hubs
 * Key Vault 
 * Load Balancers
 * Logic Apps
@@ -114,7 +114,9 @@ For now, the services that enable moving to both a new resource group and subscr
 * Virtual Networks
 
 > [!NOTE] 
-> Currently a Virtual Network containing a VPN Gateway cannot be moved until the Gateway has been removed temporarily. Once removed, the Virtual Network can be moved successfully and the Gateway can be created.
+> Currently a Virtual Network containing a VPN Gateway cannot be moved until the Gateway has been removed temporarily. Once removed, the Virtual Network can be moved successfully and the Gateway can be created. 
+>
+> Currently a peered Virtual Network cannot be moved until the VNet peering has been disabled temporarily. Once disabled, the Virtual Network can be moved successfully and the VNet peering can be enabled.
 >
  
 ## Services that do not enable move
